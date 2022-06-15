@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* html{
+    scroll-behavior: smooth; Linkler tıklandığında, sayfa aşağı inerken biraz daha yavaş iniyor, bu kod sayesinde. 
+} */
+
+header{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 70px;
+    line-height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding-left: 30px;
+}
+
+header a.logo{
+    float: left;
+}
+
+header nav{
+    float: right;
+}
+
+header nav ul li a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    transition: all 0.3s ease-in;
+}
+
+header nav ul li a:hover, header nav ul li a:focus{
+    color: #c61f27;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#mainContent{
+    background: url(https://picsum.photos/id/412/1600/600) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.mainArea{
+    margin-top: 170px;
+}
+
+.mainArea h1{
+    color: #c61f27;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.mainArea h2{
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.mainArea p{
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.mainArea .btn-success{
+    background-color: #c61f27;
+    border: none;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 60px;
+}
+
+#services{
+    background-color: #efefef;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.servicesTop h1{
+    color: #c61f27;
+    font-size: 36px;
+}
+
+.servicesTop p{
+    color: #000;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.servicesContent .fa-solid{
+    color: #c61f27;
+}
+
+.servicesContent h2{
+    font-size: 24px;
+    font-weight: 400;
+    color: #c61f27;
+}
+
+#works{
+    background: linear-gradient(rgba(255, 0, 0, 0.6),rgba(255, 0, 0, 0.6)), url(https://picsum.photos/id/50/1600/469) no-repeat;
+    width: 100%;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#works h1{
+    color: #fff;
+    font-size: 36px;
+}
+
+.worksTop p{
+    color: #fff;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.col-md-3 img{
+    width: 100%;
+}
+
+.col-md-3{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#counter{
+    background: linear-gradient(rgba(20, 19, 19, 0.6),rgba(20, 19, 19, 0.6)), url(https://picsum.photos/id/88/1600/230) no-repeat;
+    background-size: cover;
+    padding: 50px 0 50px 0;
+}
+
+.fa-clock, .fa-people-group, .fa-thumbs-up{
+    font-size: 72px;
+    color: #fff;
+}
+
+#counter h1{
+    color: #fff;
+    font-size: 24px;
+}
+
+#team{
+    background: linear-gradient(rgba(255, 0, 0, 0.3),rgba(170, 25, 25, 0.3)), url(https://picsum.photos/id/310/1599/514) no-repeat;
+    width: 100%;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#team h1{
+    color: #fff;
+    font-size: 36px;
+}
+
+.teamTop p{
+    color: #fff;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.teamContent h3{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.teamContent h4{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.fa-twitter{
+    color: #fff;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #04aeee;
+    border-radius: 50%;
+    margin-right: 5px;
+} 
+
+.fa-linkedin{
+    color: #fff;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #0177b5;
+    border-radius: 50%;
+}
+
+#partners{
+    background-color: #efefef;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#partners img{
+    width: 180px;
+    height: 180px;
+}
+
+#contact{
+    background: linear-gradient(rgba(34, 33, 33, 0.8),rgba(34, 33, 33, 0.8)), url(https://picsum.photos/id/410/1600/580) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#contact h1{
+    color: #fff;
+    font-size: 36px;
+}
+
+.contactTop p{
+    color: #fff;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+form{
+    width: 80%;
+    margin: 0 auto;
+}
+
+input, textarea{
+    width: 100%;
+    background-color: #c61f27;
+    border: none;
+    margin-bottom: 10px;
+    padding: 5px 0 5px 10px;
+}
+
+::placeholder {
+    color: #fff;
+    opacity: 1; /* Firefox */
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff;
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #fff;
+}
+  
+#submit{
+    color: #c61f27;
+    background-color: #fff;
+    font-weight: 700;
+}
+
+.contactContent h2{
+    color: #c61f27;
+    font-size: 24px;
+    margin-top: -5px;
+}
+
+.contactContent p{
+    color: #fff;
+    margin-bottom: 20px;
+}
